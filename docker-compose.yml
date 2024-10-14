@@ -1,0 +1,6 @@
+﻿services:
+  stockmarketapi:
+    image: stockmarketapi
+    build:
+      context: .
+      dockerfile: StockMarketAPI/Dockerfile
